@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    color: rgb(237, 237, 237);
+    background-color:rgba(137, 61, 61, 0.799);
+}
+.todo{
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container{
+    background-color: rgb(66, 69, 72);
+    width: 500px;
+    position: absolute;
+    top:10%; 
+    text-align: center;
+}
+
+.input-section{
+    background-color: rgb(66, 69, 72);
+}
+
+ul{
+    background-color: rgb(89, 84, 84);
+
+    padding:5px;   
+}
+
+ul li{
+    list-style: none;
+    text-align:left;
+    margin-bottom:10px;
+
+}
+
+.input-section input {
+    border: 0px, solid rgb(32, 29, 29);
+    color: aliceblue;
+    width: 74%;
+    padding: 0PX;
+    height: 50PX;
+    box-sizing: border-box;
+    box-shadow:0cqmax;
+    background-color: rgb(49, 51, 51);
+    border-radius:10px;
+    padding-left: 20px;
+
+}
+
+.input-section button {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(63, 59, 59);
+}
+ul li{
+     display: flex;
+     justify-content: space-between;
+    background-color: rgb(74, 75, 75);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    
+ }
+
+input::placeholder{
+    color: rgb(151, 144, 144);
+    padding-left: 10px;
+  
+}
+
+.svgImage{
+    height: 25px;
+}
+
+
+ul li div button {
+    background-color: rgb(74, 75, 75);
+    border:0px;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+}
+
+.edit-container{
+
+    background-color: rgb(80, 82, 85);
+    width: 500px;
+    position: relative;
+    margin-top: 150px;
+    height: 200px;
+    border-radius: 30px ;
+    text-align: center;
+
+}
+
+.editInput{
+    border: 0px, solid rgb(32, 29, 29);
+    color: aliceblue;
+    width: 74%;
+    padding: 0PX;
+    height: 50PX;
+    box-sizing: border-box;
+    box-shadow:0cqmax;
+    background-color: rgb(49, 51, 51);
+    border-radius:10px;
+    padding-left: 20px;
+
+}
+.editInput::placeholder{
+    padding-left:10px;
+}
+.editBtn{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(63, 59, 59);
+}
+
